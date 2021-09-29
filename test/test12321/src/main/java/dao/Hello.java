@@ -26,7 +26,7 @@ public class Hello extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		request.setAttribute("hihi", "haha");
+		request.setAttribute("hihi", "Quan cuoi");
 		request.getRequestDispatcher("/kaka.jsp").forward(request, response);
 	}
 
